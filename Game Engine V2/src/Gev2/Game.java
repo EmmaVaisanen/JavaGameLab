@@ -30,6 +30,7 @@ public class Game {
 		gron.update(keyboard);*/
 		squareCollection.update(keyboard);
 
+		circle.update(keyboard);
 		if(tickCounter % 40 == 0){
 			ColorBox newBox = new Redbox(40,20,20,20);
 			/*boxes.add(newBox);*/
