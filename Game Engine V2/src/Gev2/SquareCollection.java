@@ -10,8 +10,8 @@ public class SquareCollection {
         squares = new ArrayList<>();
 
         for (int i = 0; i < 10; i++){
-            int mellanrum = i * (Width + 10) + x;
-            squares.add(new Redbox(mellanrum, 20 ,20 ,20));
+            int boxPosition = i * (Width + 10) + x;
+            squares.add(new Redbox(boxPosition, 20 ,20 ,20));
         }
     }
 
