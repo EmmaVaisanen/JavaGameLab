@@ -1,7 +1,9 @@
 package gev3;
-import java.awt.Graphics2D;
+import java.awt.*;
 
+// Abstrakt klass som används för objekten i spelet.
 public abstract class Sprite {
+	public Rectangle getBounds() {return new Rectangle(x,y,width,height);} // La till detta för kollisionslogiken
 	private int x, y, width, height;
 	public int getX() { return this.x; }
 	public int getY() { return this.y; }
